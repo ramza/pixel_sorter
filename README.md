@@ -9,3 +9,5 @@ to run the file in python use execfile("pixel_sorter.py")
 to sort the source image use pixel_sorter("filename.jpg")
 
 pixel_sorter takes 4 parameters including the image file name. The others are booleans representing horizontal, black, and reverse. By default they are set to true, true, and false, respectively. Horizontal chooses between a horizontal or vertical sort. Black searches for either the darkest or lightest RBG value. This index is used as a pivot point for selecting a segment of the row or column. The last boolean reverses the selected segement.
+
+if you want to sort verticaly, by the brightest values, and reverse the sort run pixel_sorter("filename.jpg", False,False,True)
